@@ -1,0 +1,718 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "uuid": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "created": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "pcc": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "bookingType": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "flight": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "bookingId": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "vendor": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "preferredVendor": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "corporateDiscountUsed": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "cabin": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "bookingStatus": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "cancelledAt": {
+      "type": [
+        "null", "string"
+      ]
+    },
+    "cancellationReason": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "leadTimeInDays": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "startDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "endDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "bookingDuration": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "passengers": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "object"
+        ],
+        "properties": {
+          "travelerType": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "person": {
+            "type": [
+              "null",
+              "object"
+            ],
+            "properties": {
+              "uuid": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "name": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "email": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "employeedId": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "managerUuid": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "managerName": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "managerEmail": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "department": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "costCenter": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "region": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "subsidiary": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "billableEntity": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "booker": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "uuid": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "email": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "employeedId": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "managerUuid": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "managerName": {
+          "type": [
+            "null",
+                  "string"
+          ]
+        },
+        "managerEmail": {
+          "type": [
+            "null",
+                  "string"
+          ]
+        },
+        "department": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "costCenter": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "region": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "subsidiary": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "billableEntity": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "tripUuids": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "currency": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "currencyExhangeRateFromUsd": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "optimalPrice": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "paymentSchedule": {
+      "type": [
+        "null"
+      ]
+    },
+    "basePrice": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "unitaryPrice": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "saving": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "savingMissed": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "tax": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "resortFee": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "tripFee": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "bookingFee": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "vipFee": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "seatsFee": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "extrasFees": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "airlineCreditCardSurcharge": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "grandTotal": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "usdGrandTotal": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "vat": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "exchangeAmount": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "exchangeFee": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "netCharge": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "gst": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "hst": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "qst": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "travelSpend": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "paymentMethod": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "nameOnCreditCard": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "paymentMethodUsed": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "paymentCreditCardTypeName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "companyPaymentMethod": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "statementDescription": {
+      "type": [
+        "null","string"
+      ]
+    },
+    "expensed": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "bookingMethod": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "outOfPolicy": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "outOfPolicyDescription": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "outOfPolicyViolations": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "tripBucksEarned": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "tripBucksEarnedUsd": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "origin": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "country": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "state": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "city": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "destination": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "country": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "state": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "city": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "tripLength": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "tripDescription": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "approverReason": {
+      "type": [
+        "null",
+            "string"
+      ]
+    },
+    "approverEmail": {
+      "type": [
+        "null"
+      ]
+    },
+    "approvalChangedAt": {
+      "type": [
+        "null",
+            "string"
+      ]
+    },
+    "etickets": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "invoice": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "pdf": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "inventory": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "flightMiles": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "trainMiles": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "carbonEmissions": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "carbonOffsetCost": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "fareClass": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "purpose": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "reason": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "customFields": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "object"
+        ],
+        "properties": {
+          "name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "value": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

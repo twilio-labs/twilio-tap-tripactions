@@ -1,0 +1,512 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "uuid": {
+            "type": "string"
+          },
+        "created": {
+            "type": "string"
+          },
+        "pcc": {
+            "type": "string"
+          },
+          "bookingType": {
+            "type": "string"
+          },
+          "flight": {
+            "type": "string"
+          },
+          "bookingId": {
+            "type": "string"
+          },
+          "vendor": {
+            "type": "string"
+          },
+          "preferredVendor": {
+            "type": "string"
+          },
+          "corporateDiscountUsed": {
+            "type": "string"
+          },
+          "cabin": {
+            "type": "string"
+          },
+          "bookingStatus": {
+            "type": "string"
+          },
+          "cancelledAt": {
+            "type": "null"
+          },
+          "cancellationReason": {
+            "type": "string"
+          },
+          "leadTimeInDays": {
+            "type": "integer"
+          },
+          "startDate": {
+            "type": "string"
+          },
+          "endDate": {
+            "type": "string"
+          },
+          "bookingDuration": {
+            "type": "integer"
+          },
+          "passengers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "travelerType": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "person": {
+                  "type": "object",
+                  "properties": {
+                    "uuid": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "employeedId": {
+                      "type": "string"
+                    },
+                    "managerUuid": {
+                      "type": "string"
+                    },
+                    "managerName": {
+                      "type": "string"
+                    },
+                    "managerEmail": {
+                      "type": "string"
+                    },
+                    "department": {
+                      "type": "string"
+                    },
+                    "costCenter": {
+                      "type": "string"
+                    },
+                    "region": {
+                      "type": "string"
+                    },
+                    "subsidiary": {
+                      "type": "string"
+                    },
+                    "billableEntity": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "uuid",
+                    "name",
+                    "email",
+                    "employeedId",
+                    "managerUuid",
+                    "managerName",
+                    "managerEmail",
+                    "department",
+                    "costCenter",
+                    "region",
+                    "subsidiary",
+                    "billableEntity"
+                  ]
+                }
+              },
+              "required": [
+                "travelerType",
+                "status",
+                "person"
+              ]
+            }
+          },
+          "booker": {
+            "type": "object",
+            "properties": {
+              "uuid": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              },
+              "employeedId": {
+                "type": "string"
+              },
+              "managerUuid": {
+                "type": "string"
+              },
+              "managerName": {
+                "type": "null"
+              },
+              "managerEmail": {
+                "type": "null"
+              },
+              "department": {
+                "type": "string"
+              },
+              "costCenter": {
+                "type": "string"
+              },
+              "region": {
+                "type": "string"
+              },
+              "subsidiary": {
+                "type": "string"
+              },
+              "billableEntity": {
+                "type": "null"
+              }
+            },
+            "required": [
+              "uuid",
+              "name",
+              "email",
+              "employeedId",
+              "managerUuid",
+              "managerName",
+              "managerEmail",
+              "department",
+              "costCenter",
+              "region",
+              "subsidiary",
+              "billableEntity"
+            ]
+          },
+          "tripUuids": {
+            "type": "array",
+            "items":
+              {
+                "type": "string"
+              }
+
+          },
+          "currency": {
+            "type": "string"
+          },
+          "currencyExhangeRateFromUsd": {
+            "type": "number"
+          },
+          "optimalPrice": {
+            "type": "number"
+          },
+          "paymentSchedule": {
+            "type": "null"
+          },
+          "basePrice": {
+            "type": "number"
+          },
+          "unitaryPrice": {
+            "type": "number"
+          },
+          "saving": {
+            "type": "number"
+          },
+          "savingMissed": {
+            "type": "number"
+          },
+          "tax": {
+            "type": "number"
+          },
+          "resortFee": {
+            "type": "number"
+          },
+          "tripFee": {
+            "type": "number"
+          },
+          "bookingFee": {
+            "type": "number"
+          },
+          "vipFee": {
+            "type": "number"
+          },
+          "seatsFee": {
+            "type": "number"
+          },
+          "extrasFees": {
+            "type": "number"
+          },
+          "airlineCreditCardSurcharge": {
+            "type": "number"
+          },
+          "grandTotal": {
+            "type": "number"
+          },
+          "usdGrandTotal": {
+            "type": "number"
+          },
+          "vat": {
+            "type": "number"
+          },
+          "exchangeAmount": {
+            "type": "number"
+          },
+          "exchangeFee": {
+            "type": "number"
+          },
+          "netCharge": {
+            "type": "number"
+          },
+          "gst": {
+            "type": "integer"
+          },
+          "hst": {
+            "type": "integer"
+          },
+          "qst": {
+            "type": "integer"
+          },
+          "travelSpend": {
+            "type": "number"
+          },
+          "paymentMethod": {
+            "type": "string"
+          },
+          "nameOnCreditCard": {
+            "type": "string"
+          },
+          "paymentMethodUsed": {
+            "type": "string"
+          },
+          "paymentCreditCardTypeName": {
+            "type": "string"
+          },
+          "companyPaymentMethod": {
+            "type": "string"
+          },
+          "statementDescription": {
+            "type": "null"
+          },
+          "expensed": {
+            "type": "boolean"
+          },
+          "bookingMethod": {
+            "type": "string"
+          },
+          "outOfPolicy": {
+            "type": "boolean"
+          },
+          "outOfPolicyDescription": {
+            "type": "string"
+          },
+          "outOfPolicyViolations": {
+            "type": "string"
+          },
+          "outOfPolicyViolationTypes": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "tripBucksEarned": {
+            "type": "number"
+          },
+          "tripBucksEarnedUsd": {
+            "type": "integer"
+          },
+          "origin": {
+            "type": "object",
+            "properties": {
+              "country": {
+                "type": "string"
+              },
+              "state": {
+                "type": "string"
+              },
+              "city": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "country",
+              "state",
+              "city"
+            ]
+          },
+          "destination": {
+            "type": "object",
+            "properties": {
+              "country": {
+                "type": "string"
+              },
+              "state": {
+                "type": "string"
+              },
+              "city": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "country",
+              "state",
+              "city"
+            ]
+          },
+          "tripLength": {
+            "type": "string"
+          },
+          "tripDescription": {
+            "type": "string"
+          },
+          "approverReason": {
+            "type": "null"
+          },
+          "approverEmail": {
+            "type": "null"
+          },
+          "approvalChangedAt": {
+            "type": "null"
+          },
+          "etickets": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "invoice": {
+            "type": "string"
+          },
+          "pdf": {
+            "type": "string"
+          },
+          "inventory": {
+            "type": "string"
+          },
+          "flightMiles": {
+            "type": "number"
+          },
+          "trainMiles": {
+            "type": "number"
+          },
+          "carbonEmissions": {
+            "type": "number"
+          },
+          "carbonOffsetCost": {
+            "type": "number"
+          },
+          "fareClass": {
+            "type": "string"
+          },
+          "purpose": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "customFields": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "value"
+              ]
+            }
+          }
+        },
+        "required": [
+          "uuid",
+          "created",
+          "pcc",
+          "bookingType",
+          "flight",
+          "bookingId",
+          "vendor",
+          "preferredVendor",
+          "corporateDiscountUsed",
+          "cabin",
+          "bookingStatus",
+          "cancelledAt",
+          "cancellationReason",
+          "leadTimeInDays",
+          "startDate",
+          "endDate",
+          "bookingDuration",
+          "passengers",
+          "booker",
+          "tripUuids",
+          "currency",
+          "currencyExhangeRateFromUsd",
+          "optimalPrice",
+          "paymentSchedule",
+          "basePrice",
+          "unitaryPrice",
+          "saving",
+          "savingMissed",
+          "tax",
+          "resortFee",
+          "tripFee",
+          "bookingFee",
+          "vipFee",
+          "seatsFee",
+          "extrasFees",
+          "airlineCreditCardSurcharge",
+          "grandTotal",
+          "usdGrandTotal",
+          "vat",
+          "exchangeAmount",
+          "exchangeFee",
+          "netCharge",
+          "gst",
+          "hst",
+          "qst",
+          "travelSpend",
+          "paymentMethod",
+          "nameOnCreditCard",
+          "paymentMethodUsed",
+          "paymentCreditCardTypeName",
+          "companyPaymentMethod",
+          "statementDescription",
+          "expensed",
+          "bookingMethod",
+          "outOfPolicy",
+          "outOfPolicyDescription",
+          "outOfPolicyViolations",
+          "outOfPolicyViolationTypes",
+          "tripBucksEarned",
+          "tripBucksEarnedUsd",
+          "origin",
+          "destination",
+          "tripLength",
+          "tripDescription",
+          "approverReason",
+          "approverEmail",
+          "approvalChangedAt",
+          "etickets",
+          "invoice",
+          "pdf",
+          "inventory",
+          "flightMiles",
+          "trainMiles",
+          "carbonEmissions",
+          "carbonOffsetCost",
+          "fareClass",
+          "purpose",
+          "reason",
+          "customFields"
+        ]
+      }
+  }
+}

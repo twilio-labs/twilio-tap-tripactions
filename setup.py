@@ -11,7 +11,7 @@ setup(
     py_modules=["tap_tripactions"],
     install_requires=[
         "singer-python",
-        "requests",
+        "requests==2.29.0",
     ],
     entry_points="""
     [console_scripts]

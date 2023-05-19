@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="twilio-tap-tripactions",
-    version="0.0.01",
+    version="0.0.02",
     description="Singer.io tap for extracting data from TripActions API",
     author="Twilio",
     url="https://www.twilio.com/",

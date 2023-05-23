@@ -1,4 +1,4 @@
 singer-python==5.9.0
 singer-tools==0.4.1
-requests==2.25.1
+requests==2.31.0
 coverage
